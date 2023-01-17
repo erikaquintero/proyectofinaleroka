@@ -1,0 +1,28 @@
+.banner{
+    background-image:url('https://firebasestorage.googleapis.com/v0/b/spotify-f0929.appspot.com/o/banner%20mana.png?alt=media&token=51f36e78-42d9-4dd5-be89-a3498fbe82c4') ;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30%;
+}
+
+
+.tarjeta{
+    background-color: rgb(132, 128, 159);
+    margin-top: 100px;
+    text-align: center;
+    padding: 80px;
+    height: 450px;
+    border: solid 4px;
+}
+
+
+
+.titulo_home{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
