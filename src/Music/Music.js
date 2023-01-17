@@ -1,5 +1,6 @@
 import { servicioCancionesTop } from "../services/servicioCanciones"
 import { useState,useEffect } from "react"
+import './Musica.css'
 export function Music(){
     //aca estamos usando el hook state para almacenar la respuesta del api de forma global
     const [canciones,setCanciones] = useState(null)
@@ -28,10 +29,13 @@ export function Music(){
                 {
                     canciones.tracks.map(function(cancion){
                         return(
-                            <div>
-                            <h1>{cancion.name}</h1>
-                            <audio controls src={cancion.preview_url}></audio>
-                            <img src={cancion.album.images[0].url}></img>
+
+
+                            <div className="carta shadow">
+                            <h1 className="text-center">{cancion.name}</h1>
+                            <img className="fotos img-fluid w-100 h-50" src={cancion.album.images[0].url}></img>
+                            <audio controls src={cancion.preview_url} className="mt-3"></audio>
+                            <h2>POPULARIDAD:{cancion.popularity}</h2>
                             </div>
                         )
                     })

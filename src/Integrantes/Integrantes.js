@@ -63,7 +63,7 @@ export function Integrantes(){
       <div className="row">
       <div className="col-12 col-md-6">
        
-            <img src="https://firebasestorage.googleapis.com/v0/b/spotify-f0929.appspot.com/o/integrante%20Fernando%20Olivera.jpg?alt=media&token=805d14e6-9416-40ba-9b85-a7e15422c560" alt="integrantes" className="img-fluid w-100 mt-4 shadow img_faseta"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/spotify-f0929.appspot.com/o/FERNANDO.jpg?alt=media&token=b222b38c-cbdf-4b8b-aa92-faf1bc52cced" alt="integrantes" className="img-fluid w-100 mt-4 shadow img_faseta"/>
       </div>
       <div className="col-12 col-md-6">
             <h1 className="text-center parrafo_gambeta">FERNANDO OLIVERA</h1>

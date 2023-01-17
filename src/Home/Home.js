@@ -49,8 +49,10 @@ export function Home(){
                    </div>
                <div className= "col-3 col-md-4 mt-2 text-center">
 
-                        <p>25 DIC</p>
-                        <p>25 DIC</p>
+                        <p>01 DIC</p>
+                        <p>20 JUN</p>
+                        <p>15 AGO</p>
+                        <p>30 SEP</p>
                    
            </div>
            
